@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #111;
+}
+ .navbar .circle
+ {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #e51e2a;
+     clip-path: circle(60% at right -20%);
+     z-index: -1;
+ }
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    padding: 10px 10px;
+
+}
+.navbar ul a
+{
+    text-decoration: none;
+    padding: 15px 15px ;
+    color: whitesmoke;
+    font-family: sans-serif;
+   
+
+}
+.navbar ul a:hover
+{
+    background-color: whitesmoke;
+    color:#e51e2a ;
+    border-radius: 10px;
+}
+.navbar img
+{
+  padding: 20px;
+}
+.content
+{
+    display: flex;
+   
+   
+    width: 100%;
+    padding: 30px;
+}
+.content .text
+{
+    max-width: 700px;
+    margin: 20px;
+
+}
+.content .text h1
+{
+    font-size: 40px;
+    color: white;
+    margin-left: 25px;
+    padding-bottom: 70px;
+    width: 100%;
+    font-family: serif;
+    letter-spacing: 2px;
+
+
+}
+.content .text h3
+{
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    padding-bottom: 70px;
+    font-family: 'Suez One', serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+
+}
+.content .text a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    background-color: #e51e2a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .media
+{
+    position: absolute;
+    bottom: 30px;
+    padding: 40px 40px;
+}
+.content .media a
+{
+    padding: 15px 15px ;
+    
+    font-size: 30px;
+    color: whitesmoke;
+    
+}
+.content .media a:hover
+{
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #e51e2a;
+    color: whitesmoke;
+   
+    
+    
+}
+.content .drinks
+{
+    width: 600px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.content .drinks img
+{
+    max-width: 135px ;
+    height: 345px;
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-slide img
+  {
+    
+    width: 350px;
+    position: relative;
+    max-height: 100%;
+    top: 0;
+  }
+
+ 
+ 
+  .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+}

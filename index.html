@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COKE</title>
+    <link rel="stylesheet" href="cocacola.css">
+    <script src="https://kit.fontawesome.com/ac9bb7779e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="circle"></div>
+            <img src="cokelogo.png" alt="">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT </a></li>
+                <li><a href="#">SERVICES</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="text">
+                <h1>Taste the Feeling!!</h1>
+                <h3>Have a coke and make memories <br>
+                    Spread happiness <br>
+                    Spread hope...</h3>
+                <a href="#">KNOW MORE</a>
+            </div>
+
+            <div class="media">
+                <a href="#ins"><i class="fab fa-instagram" id="insta"></i></a>
+                <a href="#twt"><i class="fab fa-twitter" id="tw"></i></a>
+                <a href="#lnk"><i class="fab fa-linkedin-in" id="lnk"></i></a>
+            </div>
+            <div class="drinks">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="cocacola1.png"></div>
+                        <div class="swiper-slide"><img src="cocacola2.png"></div>
+                        <div class="swiper-slide"><img src="cocacola3.png"></div>
+                        <div class="swiper-slide"><img src="cocacola4.png"></div>
+                        <div class="swiper-slide"><img src="cocacola5.png"></div>
+                        <div class="swiper-slide"><img src="cocacola6.png"></div>
+
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 250,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            loop:true,
+        });
+    </script>
+</body>
+
+</html>
